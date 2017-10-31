@@ -35,7 +35,7 @@ if($arrJson['events'][0]['message']['text'] == "สวัสดี"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = = 1;
+  $arrPostData['messages'][0]['text'] = = "1";
 }else if($arrJson['events'][0]['message']['text'] == "DNI-1299"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
