@@ -1235,7 +1235,7 @@ if($arrJson['events'][0]['message']['text'] == "สวัสดี"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
-  $arrPostData['messages'][0]['text'] = "SERVER : ONLINE ขณะนี้ระบบเช็คผ่านไลน์PCถูกนำออกจากระบบชั่วคราว เนื่องจากพบปัญหาขอในการสิทธิ์ (สำหรับไลน์ PC) ขออภัยในความไม่สะดวก";
+  $arrPostData['messages'][0]['text'] = "SERVER : ONLINE ขณะนี้ระบบเช็คผ่านไลน์PCถูกนำออกจากระบบชั่วคราว เนื่องจากพบปัญหาในการขอสิทธิ์ (สำหรับไลน์ PC) ขออภัยในความไม่สะดวก";
 }else if($arrJson['events'][0]['message']['text'] == "INFO"){
   $arrPostData = array();
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
