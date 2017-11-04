@@ -1246,6 +1246,7 @@ else if($arrJson['events'][0]['message']['text'] == "ชื่ออะไร"){
   $arrPostData['replyToken'] = $arrJson['events'][0]['replyToken'];
   $arrPostData['messages'][0]['type'] = "text";
   $arrPostData['messages'][0]['text'] = "ฉันไม่เข้าใจคำสั่ง ถ้าต้องการเช็ค DNI พิมพ์ DNI-ตามด้วยเบอร์ ตัวพิมพ์ใหญ่เท่านั้น ต้องมีขีด และห้ามเว้นวรรค!";
+}
  
  
 $ch = curl_init();
